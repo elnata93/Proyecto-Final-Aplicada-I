@@ -9,7 +9,7 @@ using DAL;
 namespace BLL 
 {
 
-    public class Usuarios:ClaseMaestra
+    public class Login:ClaseMaestra
     {
        /* public string  Nombre { get; set; }
         public string Apellido { get; set; }
@@ -23,7 +23,7 @@ namespace BLL
         public string Contrasena { get; set; }
         public string Fecha { get; set; }
 
-        public Usuarios()
+        public Login()
         {
             Nombre = "";
             NombreUsuario = "";
@@ -31,7 +31,7 @@ namespace BLL
             Fecha = "";
         }
 
-        public Usuarios(string nombre,string nombreUsuario,string contrasena,string fecha)
+        public Login(string nombre,string nombreUsuario,string contrasena,string fecha)
         {
             Nombre = nombre;
             NombreUsuario = nombreUsuario;

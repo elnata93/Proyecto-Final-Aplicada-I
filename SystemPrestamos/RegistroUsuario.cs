@@ -30,7 +30,7 @@ namespace SystemPrestamos
 
         private void Guardarbutton_Click(object sender, EventArgs e)
         {
-            Usuarios user = new Usuarios();
+            BLL.Login user = new BLL.Login();
             if (NombretextBox.TextLength > 0 && NombreUsuariotextBox.TextLength > 0)
             {
                 user.Nombre = NombretextBox.Text;
