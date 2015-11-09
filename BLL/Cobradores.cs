@@ -20,7 +20,7 @@ namespace BLL
         public string Celular;
         public string Cedula;
         public int RutaId;
-         
+          
         public Cobradores()
         {
             this.CobradorId = 0;
