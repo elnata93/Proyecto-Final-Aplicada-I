@@ -77,7 +77,7 @@ namespace BLL
             } 
             return retorno;
         }
-
+         
         public override DataTable Listado(string Campos, string Condicion, string Orden)
         {
             string ordenFinal = ""; //!orden.Equals("") ? " orden by  " + orden : "";
