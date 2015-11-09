@@ -76,7 +76,7 @@ namespace BLL
                 this.RutaId = (int)dt.Rows[0]["RutaId"];
             } 
             return retorno;
-        }
+        } 
          
         public override DataTable Listado(string Campos, string Condicion, string Orden)
         {
